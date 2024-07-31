@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./ProductForm.css"; // Import the CSS file
+import "./ProductForm.css"; 
 
 const ProductForm = ({ productId, onSave }) => {
   const [product, setProduct] = useState({

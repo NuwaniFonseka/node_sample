@@ -7,7 +7,7 @@
 }
 
 .product-form-container {
-    margin-bottom: 2rem; /* Space between form and list */
+    margin-bottom: 2rem; 
 }
 
 .product-list h2 {
@@ -20,8 +20,8 @@
     list-style: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap to the next line */
-    gap: 1rem; /* Space between cards */
+    flex-wrap: wrap; 
+    gap: 1rem; 
 }
 
 .product-list li {
@@ -32,15 +32,15 @@
     padding: 1rem;
     background-color: #dadadb;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 1rem); /* Two cards per row, accounting for gap */
-    box-sizing: border-box; /* Ensure padding and border are included in width */
+    width: calc(50% - 1rem); 
+    box-sizing: border-box; 
 }
 
 .product-list img {
     border-radius: 4px;
     margin-bottom: 0.5rem;
-    max-width: 100%; /* Ensure images fit within the card */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .product-list h3,
@@ -56,7 +56,7 @@
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-size: 0.875rem; /* Adjust font size for better button appearance */
+    font-size: 0.875rem; 
 }
 
 .product-list button.edit {
